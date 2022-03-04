@@ -1,18 +1,17 @@
 // SELECTORS
 const musicContainer = document.querySelector(".music-container");
-const musicInfo = document.querySelector(".music-info");
-const progressContainer = document.querySelector(".progress-container");
-const progress = document.querySelector(".progress");
-const imgContainer = document.querySelector(".img-container");
-const navigation = document.querySelector(".navigation");
-const songTitle = document.getElementById("title");
-const songImg = document.getElementById("cover");
-const prevBtn = document.getElementById("prev");
-const playBtn = document.getElementById("play");
-const nextBtn = document.getElementById("next");
-const audioTag = document.getElementById("audio");
-const volumeSlider = document.getElementById("volume-slider");
-const outputContainer = document.getElementById("volume-output");
+const musicInfo = musicContainer.querySelector(".music-info");
+const progressContainer = musicContainer.querySelector(".progress-container");
+const imgContainer = musicContainer.querySelector(".img-container");
+const navigation = musicContainer.querySelector(".navigation");
+const songTitle = musicContainer.querySelector(".title");
+const songImg = musicContainer.querySelector(".cover");
+const prevBtn = musicContainer.querySelector(".prev");
+const playBtn = musicContainer.querySelector(".play");
+const nextBtn = musicContainer.querySelector(".next");
+const audioTag = musicContainer.querySelector(".audio");
+const volumeSlider = musicContainer.querySelector(".volume-slider");
+const outputContainer = musicContainer.querySelector(".volume-output");
 
 const songList = ["hey", "summer", "ukulele"];
 
